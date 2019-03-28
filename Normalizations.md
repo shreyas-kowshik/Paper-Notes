@@ -11,8 +11,11 @@ This was just for intuition. To actually understand the math behind it, it is re
 
 
 
+Different Types Of Normalizations : 
 
+https://arxiv.org/pdf/1803.08494.pdf
 
+This paper explains different normalization techniques in short and group normalization in depth.
 
 <b>References</b>
 
