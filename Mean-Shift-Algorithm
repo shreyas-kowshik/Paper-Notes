@@ -1,0 +1,5 @@
+https://www.geeksforgeeks.org/ml-mean-shift-clustering/
+
+Used extensively in segmentation/tracking.
+
+Assigns each datapoint to a cluster with center close to where the largest number of points are, in a region around the point.
