@@ -2,6 +2,7 @@ Links :
 
 http://vision.stanford.edu/teaching/cs231b_spring1415/slides/lectureTracking.pdf
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.8588&rep=rep1&type=pdf
+https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/
 
 In its simplest form, tracking can be defined as the problem of estimating the trajectory of an object in the image plane as it moves around a scene. In other words, a
 tracker assigns consistent labels to the tracked objects in different frames of a video. Additionally, depending on the tracking domain, a tracker can also provide object-centric
