@@ -29,3 +29,36 @@ as features.
 Features can be color, edges, optical flow, texture (a measure of intensity variation of a surface quantifying smoothness
 and regularity.
 
+Object Detection : 
+
+Either in the first frame or in every frame. Common methods : 
+
+1. Point Detection : SIFT,HARRIS,etc.
+2. Background Subtraction
+3. Segmentation
+4. Supervised Learning
+
+## Object Tracking 
+
+The aim of an object tracker is to generate the trajectory of an object over time by locating its position in every frame of the video.
+
+The tasks of detecting the object and establishing correspondence between the object instances across
+frames can either be performed separately or jointly. In the first case, possible object
+regions in every frame are obtained by means of an object detection algorithm, and then
+the tracker corresponds objects across frames. In the latter case, the object region and
+correspondence is jointly estimated by iteratively updating object location and region
+information obtained from previous frames.
+
+Tracking categories : 
+1. Point Tracking
+2. Kernel Tracking (Kernel is the object shape and appearence) - employs tracking a rectangle, ellipse / shape over time
+through affine transformations
+3. Silhouette Tracking - employs tracking contours as they evolve over time
+
+Point Tracking : 
+
+Given points in frame `t-1` obtain assignment of where these points are in frame `t`.
+Deterministic and Statistical methods. Can employ constraints like point does not move by much,
+has a bounded velocity, etc.
+
+Statistical methods are of key importance. Can handle noise as well.
