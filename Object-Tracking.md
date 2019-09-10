@@ -62,3 +62,5 @@ Deterministic and Statistical methods. Can employ constraints like point does no
 has a bounded velocity, etc.
 
 Statistical methods are of key importance. Can handle noise as well.
+
+Kalman filters/Particle Filters are common here.
