@@ -68,3 +68,5 @@ Given a context `c` and denoting word `w` and label `d`, first sample a word for
 ### Negative Sampling
 * Similar to NCE just the probabilities $P(d|w,c)$ are defined using sigmoid (See reference)
 * This is not asymptotically consistent to true gradient value however as a point to note
+
+Number of samples in either case : Gensim uses 5
