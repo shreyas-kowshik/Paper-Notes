@@ -2,6 +2,13 @@
 
 Link : https://arxiv.org/pdf/1706.03762.pdf
 
+## Visualise in a Nuteshell
+
+* Input : (N,T,D) : N : batch size, T : sequence length, D : dimension size in encoder,
+(N,T',D) : in decoder
+* Output : (N,T',D') : pass through layers in decoder and for hidden dimension size D' get this output
+* The layers are effectively just linear layers along with self attention and cross attention layers for each timestep. Thus the timestep dimension is exactly the same even in the output and multiple outputs can be expected for the different timesteps. One can select these as per the requirement of the task at hand  
+
 ## 3. Model Architecture
 
 * PS : Map input sequence (x1,...,xn) to output sequence (y1,...,ym).
